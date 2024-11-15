@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npx eleventy --serve"
+    "start": "npx eleventy --serve",
+    "build": "eleventy"
   },
   "keywords": [],
   "author": "",

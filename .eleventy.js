@@ -7,7 +7,7 @@ module.exports = config => {
         let metadata = await Image(src, { 
             widths: [600, 900, 1500], 
             formats: ["jpeg", "webp"],
-            outputDir: "./_site/images/",
+            outputDir: "./docs/images/",
             urlPath: "/images/",
             filenameFormat: function (id, src, width, format, options) {
 				const extension = path.extname(src)
@@ -44,7 +44,7 @@ module.exports = config => {
         htmlTemplateEngine: 'njk',
         dir: {
             input: 'src',
-            output: '_site'
+            output: 'docs'
         }
     }
 }
