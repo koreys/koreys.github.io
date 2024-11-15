@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <!-- our project just needs Font Awesome Solid + Brands -->
+    <link href="../../assets/fontawesome/css/fontawesome.min.css" rel="stylesheet" />
+    <link href="../../assets/fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="../../assets/fontawesome/css/solid.css" rel="stylesheet" />
+    <!--If I ever want to add tailwind https://medium.com/@grahamrb/combining-eleventy-with-tailwind-css-and-daisyui-9b87c3f40d67 -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:wght@400;500;700;900&display=swap');
+
+        .roboto-bold {
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .roboto-black {
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+        }
+    
+        .roboto-mono-300{
+            font-family: "Roboto Mono", serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+        }
+        .fullscreen{
+            height: 100vh;
+        }
+
+    </style>
+  </head>
+  <body class="has-background-light has-text-dark">
+    {% block content %}{% endblock %}
+  </body>
+</html>

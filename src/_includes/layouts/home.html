@@ -1,0 +1,21 @@
+{% extends "layouts/base.html" %} 
+{% block content %}
+
+<section class="container is-max-tablet pt-3 fullscreen is-flex is-flex-direction-column">
+    {% include "partials/site-head.html" %}
+    <div class="has-text-weight-medium is-size-4 roboto-black">Latest</div>
+    <div>
+        {% include "partials/latest.html" %}
+    </div> 
+
+    <div class="pt-3 has-text-weight-medium is-size-4 roboto-black">Posts</div>
+    <div class="is-flex-grow-1">
+        {% include "partials/posts.html" %} 
+    </div>   
+    <div>
+        {% include "partials/footer.html" %} 
+    </div>
+    
+</section>
+
+{% endblock %}

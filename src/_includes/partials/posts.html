@@ -1,0 +1,9 @@
+{% for post in collections.posts %}
+{% if loop.index != 1 %}
+<div class="roboto-mono-300">
+    <span>{{post.data.date}} {{post.index}}</span>
+    <span>{{post.data.title}}</span>
+    <span><a href="{{post.url}}">View</a></span>
+</div>
+{% endif %}
+{% endfor %}
