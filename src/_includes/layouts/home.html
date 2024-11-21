@@ -1,14 +1,16 @@
 {% extends "layouts/base.html" %} 
 {% block content %}
 
-<section class="container is-max-tablet pt-3 fullscreen is-flex is-flex-direction-column">
+<section class="container is-max-tablet pt-4 fullscreen is-flex is-flex-direction-column">
     {% include "partials/site-head.html" %}
-    <div class="has-text-weight-medium is-size-4 roboto-black">Latest</div>
+
+    <img src="../../assets/img/X-Wing-Targeting-Computer-Death-Star-Trench-Run.png" class="mt-4 mb-4" style="aspect-ratio: 6/1; border-radius: 10px;">
+    <div class="has-text-weight-medium is-size-4 roboto-black mt-4">Latest</div>
     <div>
         {% include "partials/latest.html" %}
     </div> 
 
-    <div class="pt-3 has-text-weight-medium is-size-4 roboto-black">Posts</div>
+    <div class="pt-4 has-text-weight-medium is-size-4 roboto-black">Posts</div>
     <div class="is-flex-grow-1">
         {% include "partials/posts.html" %} 
     </div>   

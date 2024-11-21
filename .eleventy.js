@@ -30,6 +30,7 @@ module.exports = config => {
     config.addPassthroughCopy('./src/assets/css/')
     config.addPassthroughCopy('./src/assets/fontawesome/')
     config.addPassthroughCopy('./src/assets/fonts/')
+    config.addPassthroughCopy('./src/assets/img/')
 
     // Returns post items, sorted by date
     config.addCollection('posts', collection => {
