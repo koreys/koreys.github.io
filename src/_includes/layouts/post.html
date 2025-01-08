@@ -1,13 +1,17 @@
 {% extends "layouts/base.html" %}
 
 {% block content %}
-<div class="container is-max-tablet pt-3 fullscreen">
-    {% include "partials/site-head.html" %}
+<div class="container is-max-tablet pt-3 is-flex is-flex-direction-column" style="min-height: 100vh;">
+    <div>
+      {% include "partials/site-head.html" %}
+    </div>
     <div class="has-text-weight-medium is-size-4 roboto-black mt-3">{{title}}</div>
-    <div class="roboto-mono-300 mt-3 mb-3">
+    <div class="roboto-mono-300 mt-3 mb-3 is-flex-grow-1">
       {{ content | safe }}
     </div>
-    {% include "partials/footer.html" %}
+    <div>
+      {% include "partials/footer.html" %}
+    </div>
 </div>
 
   
