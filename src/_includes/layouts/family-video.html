@@ -1,0 +1,25 @@
+{% extends "layouts/base.html" %} 
+{% block content %}
+<script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1/lite-youtube.min.js"></script>
+<section class="container is-max-tablet pt-4 is-flex is-flex-direction-column" style="height:100vh;">
+    {% include "partials/site-head.html" %}
+
+    
+    <div>Family Video</div>
+    <div>{{ familyVideo.summary }}</div>
+
+    {% for video in familyVideo.videos %}
+    
+    <div class="roboto-mono-300">
+        <span>Video: {{video.filename}}</span>
+        <span>Location: {{video.location}}</span>
+        <span>Date: {{video.date}}</span>
+    </div>
+    <div>
+        <lite-youtube videoid="{{ video.videoId }}" class="mt-4" style="border: 2px solid black;"></lite-youtube>
+    </div>
+    {% endfor %}
+
+</section>
+
+{% endblock %}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Family-Video</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <!-- our project just needs Font Awesome Solid + Brands -->
+    <link href="../../assets/fontawesome/css/fontawesome.min.css" rel="stylesheet" />
+    <link href="../../assets/fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="../../assets/fontawesome/css/solid.css" rel="stylesheet" />
+    <!--If I ever want to add tailwind https://medium.com/@grahamrb/combining-eleventy-with-tailwind-css-and-daisyui-9b87c3f40d67 -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:wght@400;500;700;900&display=swap');
+
+        .roboto-bold {
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .roboto-black {
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+        }
+    
+        .roboto-mono-300{
+            font-family: "Roboto Mono", serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+        }
+        .fullscreen{
+            height: 100vh;
+        }
+
+    </style>
+  </head>
+  <body class="has-text-dark" style="background-color: #e2e2e2;">
+    
+<script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1/lite-youtube.min.js"></script>
+<section class="container is-max-tablet pt-4 is-flex is-flex-direction-column" style="height:100vh;">
+    <header>
+    <div class="level mb-0">
+        <div class="level-left">
+            <div class="level-item is-size-2 roboto-black"><a href="/" style="color:#111;">Korey.org</a></div>   
+        </div>
+        <div class="level-right">
+            <div class="level-item mr-1">
+                <a style="color:#111;text-decoration:none;" href="/family-video">Family Video</a>  
+            </div>
+            |
+            <div class="level-item mr-5">
+                <a href="/"><i class="fa-brands fa-galactic-republic" style="color:#111;"></i></a>  
+            </div>
+        </div>
+    </div>
+
+    <div class="level mb-4 is-flex-wrap-wrap">
+    
+            <div class="level-item roboto-mono-300 is-flex-wrap-wrap is-flex-shrink-1 is-size-7">"You will never find a more wretched hive of scum and villainy. We must be cautious"</div>
+        
+    </div>
+</header>
+
+    
+    <div>Family Video</div>
+    <div>I&#39;ve had a bunch of old reels digitzed. I&#39;ll start posting them here along with the detail I think I know. Please email/text me with any additional info you can provide. Names, dates, etc...</div>
+
+    
+    
+    <div class="roboto-mono-300">
+        <span>Video: 1722976-01.mp4</span>
+        <span>Location: Bermuda</span>
+        <span>Date: Unknown, 1970s?</span>
+    </div>
+    <div>
+        <lite-youtube videoid="hJumxpgciDI" class="mt-4" style="border: 2px solid black;"></lite-youtube>
+    </div>
+    
+
+</section>
+
+
+  </body>
+</html>

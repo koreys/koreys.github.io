@@ -6,6 +6,7 @@ module.exports = config => {
         console.log(`Generating images from ${src}`)
         let metadata = await Image(src, { 
             widths: [600, 900, 1500], 
+            fixOrientation: true,
             formats: ["jpeg", "webp"],
             outputDir: "./docs/images/",
             urlPath: "/images/",

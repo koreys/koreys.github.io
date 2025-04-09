@@ -1,0 +1,33 @@
+{
+    "title": "Family Video",
+    "summary": "I've had a bunch of old reels digitzed. I'll start posting them here along with the detail I think I know. Please email/text me with any additional info you can provide. Names, dates, etc...",
+    "videos": [
+        {
+            "filename": "1722976-01.mp4",
+            "location": "Bermuda",
+            "date": "Unknown, 1970s?",
+            "length": "03:27",
+            "desc": "Opening shot of the Hamilton Princess Hotel. Then Olive and another couple touring the island via scooter.",
+            "videoUrl": "https://youtu.be/hJumxpgciDI",
+            "videoId": "hJumxpgciDI",
+            "timeStamps": [
+                {
+                    "time": "00:01",
+                    "desc": "Princess Bermuda Hotel... Now named the Hamilton Princess Hotel."
+                },
+                {
+                    "time": "00:42",
+                    "desc": "Glass bottom boat tour."
+                },
+                {
+                    "time": "01:15",
+                    "desc": "Olive and friends on scooters."
+                },
+                {
+                    "time": "03:21",
+                    "desc": "Olive and another couple boarding American Airlines jet."
+                }
+            ]
+        }
+    ]
+}
