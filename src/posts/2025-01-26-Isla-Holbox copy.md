@@ -1,7 +1,7 @@
 ---
 title: 'Isla Holbox MX  '
 date: '2025-01-26'
-tags: ['skyler', 'eagles']
+tags: ['mexico', 'vacation']
 ---
 
 **Holbox is amazing. Cant wait to go back.**
