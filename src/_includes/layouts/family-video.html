@@ -5,17 +5,27 @@
     {% include "partials/site-head.html" %}
 
     
-    <div>Family Video</div>
+    <div class="title mt-4">Family Video</div>
     <div>{{ familyVideo.summary }}</div>
+    <br>&nbsp;<br>
 
     {% for video in familyVideo.videos %}
     
     <div class="roboto-mono-300">
-        <span>Video: {{video.filename}}</span>
+        <span>Title: <b>{{video.title}}</b></span><br>
         <span>Location: {{video.location}}</span>
         <span>Date: {{video.date}}</span>
+        <br>
+        <span>Private Youtube link: <a href="{{video.videoUrl}}">{{video.videoUrl}}</a></span>
+        <br>
+        Time Stamps:
+        <div class="is-size-7">
+            {% for stamp in video.timeStamps %}
+            <span>Time: {{stamp.time}}, Desc: {{stamp.desc}}</span><br>
+            {% endfor %}
+        </div>
     </div>
-    <div>
+    <div class="mb-5">
         <lite-youtube videoid="{{ video.videoId }}" class="mt-4" style="border: 2px solid black;"></lite-youtube>
     </div>
     {% endfor %}

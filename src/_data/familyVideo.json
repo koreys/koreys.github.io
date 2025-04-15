@@ -4,8 +4,9 @@
     "videos": [
         {
             "filename": "1722976-01.mp4",
+            "title": "Somewhere in Bermuda",
             "location": "Bermuda",
-            "date": "Unknown, 1970s?",
+            "date": "1970s",
             "length": "03:27",
             "desc": "Opening shot of the Hamilton Princess Hotel. Then Olive and another couple touring the island via scooter.",
             "videoUrl": "https://youtu.be/hJumxpgciDI",
@@ -26,6 +27,50 @@
                 {
                     "time": "03:21",
                     "desc": "Olive and another couple boarding American Airlines jet."
+                }
+            ]
+        },
+        {
+            "filename": "1722976-02.mp4",
+            "title": "Busch Gardens and Beach",
+            "location": "Tampa, FL",
+            "date": "1970s",
+            "length": "03:25",
+            "desc": "Grandma orange picking at Busch Gardens. Then some beach in Florida.",
+            "videoUrl": "https://youtu.be/qtOFidjvcWk",
+            "videoId": "qtOFidjvcWk",
+            "timeStamps": [
+                {
+                    "time": "00:01",
+                    "desc": "Orange or Grapefruit picking with Richard Kranaski"
+                },
+                {
+                    "time": "00:19",
+                    "desc": "Welcome to Busch Gardens"
+                },
+                {
+                    "time": "00:28",
+                    "desc": "Cheryl on an Elephant ride"
+                },
+                {
+                    "time": "01:17",
+                    "desc": "Flamingos, Peacocks, and other animals"
+                },
+                {
+                    "time": "01:52",
+                    "desc": "Olive standing at a railing"
+                },
+                {
+                    "time": "01:58",
+                    "desc": "Anheuser Busch Brewery Sign"
+                },
+                {
+                    "time": "02:05",
+                    "desc": "Olive and Cheryl"
+                },
+                {
+                    "time": "02:58",
+                    "desc": "Olive and Cheryl on the beach"
                 }
             ]
         }
